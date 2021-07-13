@@ -1,0 +1,226 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+ul li.active a{
+	background-color: #ffffff;
+	color: #000000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #ffffff;
+	font-size: 70px;
+
+}
+
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #ffffff;
+	padding: 10px 30px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+	background-color: #ffffff;
+	color: #000000;
+
+
+}
+
+.title .button .btn .Read_me {
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial sans-serif;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background: url("darling.png") no-repeat center;
+}
+
+.main .Photodump{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+input{
+	display: none;
+}
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+h1{
+	font-weight: normal;
+	font-size: 35px;
+	position: relative;
+	margin: 40px 0;
+}
+
+.title .button .btn .Moments{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #2e8d86;
+}
+
+.container{
+	width: 80%;
+	margin: 80px auto;
+}
+.container h1{
+	padding: 60px 0;
+	color: #ffffff;
+	font-size: 44px;
+	text-align: center;
+}
+
+
+.title .button .btn .Songs_for_u {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+.html{
+	font-size: 80%;
+}
+
+.container{
+	background: #222222;
+}
+
+.container .heading{
+	font-size: 3rem;
+	padding:2rem 0;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 0 .5rem 1rem #000000;
+	color: #ffffff;
+}
+
+.container .music-container{
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+
+.container .music-container .box{
+	height: 16rem;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	background: #fff9e3;
+	border-radius: 1rem;
+	box-shadow: 0 .5rem 1rem #000000;
+	overflow: hidden;
+	margin: 2rem;
+}
+
+.container .music-container .box .image{
+	height: 100%;
+	width: 25%;
+}
+
+.container .music-container .box .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.container .music-container .box .music{
+	width: 75%;
+}
+
+.container .music-container .box .music audio{
+	width: 100%;
+	outline: none;
+}
+
+.container .music-container .box .music audio::-webkit-media-controls-eclosure{
+	background: none;
+}
+
+@media (max-width:600px) {
+	.container .music-container .box {
+		height: 27rem;
+		width: 90%;
+		flex-flow: column;
+	}
+
+	.container .music-container .box .image{
+		height: 80%;
+		width: 100%;
+	}
+
+	.container .music-container .box .image .music{
+		height: 80%;
+		width: 100%;
+	}
+
+
+}
